@@ -15,7 +15,7 @@ const Shopping = () => {
   const shoppingcart = useSelector((store) => store.shoppingcart);
   const load = shoppingcart.isLoading;
   const dispatch = useDispatch();
-  const url = "/api/v1/getproducts";
+  const url = "https://backend-servicee.onrender.com/api/v1/getproducts";
   const datas=shoppingcart.data;
 
 
